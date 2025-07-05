@@ -33,7 +33,7 @@ export default async function handler(req, res) {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams({
-        key: process.env.SMM_API_KEY,
+        key: '6531b4d73b0d5c6ade83e71ee1a0cb88', // <-- Hardcoded for testing
         action: 'add',
         service: serviceMap[service],
         link,
